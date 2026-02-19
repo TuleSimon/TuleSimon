@@ -14,9 +14,6 @@
   <a href="mailto:tulesimon98@gmail.com">
     <img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://twitter.com/AdesanyaSimon">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=x&logoColor=white" />
-  </a>
   <img src="https://komarev.com/ghpvc/?username=TuleSimon&style=flat-square&color=blueviolet" alt="Profile views" />
 </p>
 
@@ -26,17 +23,26 @@
 
 ```kotlin
 object TuleSimon {
-    val role = "Senior Android Engineer"
-    val location = "Nigeria"
-    val languages = listOf("Kotlin", "Java", "Swift", "Dart", "TypeScript")
+    val role = "Senior Mobile & Full Stack Engineer"
+    val location = "Nigeria 🇳🇬"
+    val education = "B.Sc Computer Science — Federal University Otuoke"
 
-    val currentFocus = mapOf(
-        "work" to "Building delightful mobile experiences",
-        "learning" to listOf("Kotlin Multiplatform", "On-Device AI", "Compose Multiplatform"),
-        "interests" to listOf("Mobile Dev", "Machine Learning", "Open Source")
+    val stack = mapOf(
+        "mobile" to listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI", "Flutter"),
+        "web" to listOf("React", "Next.js", "TypeScript", "Tailwind CSS"),
+        "backend" to listOf("Node.js", "Ktor", "Firebase", "Supabase"),
+        "ai_ml" to listOf("TensorFlow", "PyTorch", "ML Kit", "Core ML")
     )
 
-    fun sayHi() = println("Thanks for dropping by! Let's build something cool together.")
+    val currentFocus = mapOf(
+        "building" to "Open source libraries that save developers time",
+        "exploring" to listOf("Kotlin Multiplatform", "On-Device AI", "Compose Multiplatform"),
+        "vibes" to "Anime, lo-fi beats, and late-night coding sessions"
+    )
+
+    val philosophy = "Write code that you'd be proud to open source"
+
+    fun sayHi() = println("Thanks for dropping by! Let's build something cool together 🚀")
 }
 ```
 
@@ -63,12 +69,50 @@ object TuleSimon {
       </p>
     </td>
     <td width="50%">
-      <h3 align="center">Your Next Project</h3>
+      <h3 align="center">xMaterialccp</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Coming-Soon-blue?style=for-the-badge" />
+        <a href="https://github.com/TuleSimon/xMaterialccp">
+          <img src="https://img.shields.io/github/stars/TuleSimon/xMaterialccp?style=for-the-badge&color=yellow" />
+        </a>
       </p>
       <p align="center">
-        Always working on something new. Check back soon or follow for updates!
+        Material 3 Country Code Picker for Jetpack Compose. Beautiful, customizable, and easy to integrate.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
+        <img src="https://img.shields.io/badge/Material_3-6750A4?style=flat-square&logo=materialdesign&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">XCalendar</h3>
+      <p align="center">
+        <a href="https://github.com/TuleSimon/XCalendar">
+          <img src="https://img.shields.io/github/stars/TuleSimon/XCalendar?style=for-the-badge&color=yellow" />
+        </a>
+      </p>
+      <p align="center">
+        A flexible, customizable calendar library for Jetpack Compose. Date picking made simple and beautiful.
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+        <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">More Coming Soon</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/🚀-In_Progress-blue?style=for-the-badge" />
+      </p>
+      <p align="center">
+        Always building something new. Star my repos to stay updated!
+      </p>
+      <p align="center">
+        <a href="https://github.com/TuleSimon?tab=repositories">
+          <img src="https://img.shields.io/badge/View_All_Repos-181717?style=flat-square&logo=github&logoColor=white" />
+        </a>
       </p>
     </td>
   </tr>
@@ -79,7 +123,7 @@ object TuleSimon {
 ### Tech Stack
 
 <details open>
-<summary><b>Mobile Development</b></summary>
+<summary><b>📱 Mobile Development</b></summary>
 <br>
 <p>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
@@ -87,24 +131,40 @@ object TuleSimon {
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/SwiftUI-000000?style=for-the-badge&logo=swift&logoColor=white" />
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/KMP-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
 </p>
 </details>
 
-<details>
-<summary><b>Backend & Cloud</b></summary>
+<details open>
+<summary><b>🌐 Web Development</b></summary>
 <br>
 <p>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logo=ktor&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 </details>
 
 <details>
-<summary><b>AI & Machine Learning</b></summary>
+<summary><b>☁️ Backend & Cloud</b></summary>
+<br>
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logo=ktor&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
+</details>
+
+<details>
+<summary><b>🤖 AI & Machine Learning</b></summary>
 <br>
 <p>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -116,7 +176,7 @@ object TuleSimon {
 </details>
 
 <details>
-<summary><b>Tools & Workflow</b></summary>
+<summary><b>🛠️ Tools & Workflow</b></summary>
 <br>
 <p>
   <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" />
@@ -151,10 +211,12 @@ object TuleSimon {
 
 ### What I'm Up To
 
-- 🔭 Currently building **[XComposeMediaPlayer](https://github.com/TuleSimon/XComposeMediaPlayer)** — making video playback in Compose actually simple
-- 🌱 Deep diving into **Kotlin Multiplatform** and **On-Device ML**
-- 💬 Ask me about **Android**, **Jetpack Compose**, **Mobile Architecture**
-- ⚡ Fun fact: I debug best at 2 AM with lo-fi beats playing
+- 🔭 Maintaining **[XComposeMediaPlayer](https://github.com/TuleSimon/XComposeMediaPlayer)**, **[xMaterialccp](https://github.com/TuleSimon/xMaterialccp)**, and **[XCalendar](https://github.com/TuleSimon/XCalendar)**
+- 🌱 Deep diving into **Kotlin Multiplatform**, **On-Device AI**, and **Compose Multiplatform**
+- 💼 Building production apps with **Jetpack Compose**, **Flutter**, and **React/Next.js**
+- 💬 Ask me about **Android**, **Jetpack Compose**, **Flutter**, **React**, or **Mobile Architecture**
+- 📚 B.Sc in Computer Science from **Federal University Otuoke**
+- ⚡ Fun fact: I debug best at 2 AM with lo-fi beats and anime in the background
 
 ---
 

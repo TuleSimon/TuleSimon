@@ -19,32 +19,41 @@
 
 ---
 
-### About Me
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TuleSimon&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=6" width="320" />
 
-```kotlin
-object TuleSimon {
-    val role = "Senior Mobile & Full Stack Engineer"
-    val location = "Nigeria 🇳🇬"
-    val education = "B.Sc Computer Science — Federal University Otuoke"
+### ⚡ About Me
 
-    val stack = mapOf(
-        "mobile" to listOf("Kotlin", "Jetpack Compose", "Swift", "SwiftUI", "Flutter"),
-        "web" to listOf("React", "Next.js", "TypeScript", "Tailwind CSS"),
-        "backend" to listOf("Node.js", "Ktor", "Firebase", "Supabase"),
-        "ai_ml" to listOf("TensorFlow", "PyTorch", "ML Kit", "Core ML")
-    )
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6366F1&vCenter=true&random=false&width=435&lines=Mobile+%26+Full+Stack+Engineer;Open+Source+Library+Creator;Kotlin+%7C+Flutter+%7C+React+Dev;Building+tools+devs+actually+use" alt="Typing SVG" />
+</p>
 
-    val currentFocus = mapOf(
-        "building" to "Open source libraries that save developers time",
-        "exploring" to listOf("Kotlin Multiplatform", "On-Device AI", "Compose Multiplatform"),
-        "vibes" to "Anime, lo-fi beats, and late-night coding sessions"
-    )
+```yaml
+name: Tule Simon
+location: Nigeria 🇳🇬
+education: B.Sc Computer Science — Federal University Otuoke
 
-    val philosophy = "Write code that you'd be proud to open source"
+current_mission: Building open source libraries that save developers time
 
-    fun sayHi() = println("Thanks for dropping by! Let's build something cool together 🚀")
-}
+expertise:
+  mobile: ["Kotlin", "Jetpack Compose", "Flutter", "Swift"]
+  web: ["React", "Next.js", "TypeScript", "Tailwind"]
+  backend: ["Node.js", "Ktor", "Firebase", "Supabase"]
+  ai_ml: ["TensorFlow", "PyTorch", "ML Kit"]
+
+vibes: "Anime 🎌 • Lo-fi beats 🎵 • Late-night coding 🌙"
 ```
+
+<br clear="right"/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Mobile_Development-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Lives-Nigeria-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Languages-English-informational?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=TuleSimon&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5" />
+</p>
 
 ---
 
